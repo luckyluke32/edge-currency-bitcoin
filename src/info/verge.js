@@ -56,6 +56,7 @@ const currencyInfo: EdgeCurrencyInfo = {
   defaultSettings: {
     customFeeSettings: ['satPerByte'],
     electrumServers: [
+      'elec2.verge-blockchain.com:50002',
       'electrum://46.163.118.201:50002'
     ],
     disableFetchingServers: false
