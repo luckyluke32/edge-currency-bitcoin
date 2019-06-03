@@ -7,11 +7,11 @@ import { imageServerUrl } from './constants.js'
 const bcoinInfo: BcoinCurrencyInfo = {
   type: 'pivx',
   magic: ,
-  formats: ['bip44','bip39'],
+  formats: ['bip44','bip32'],
   keyPrefix: {
-    privkey: ,
-    xpubkey: ,
-    xprivkey: ,
+    privkey: 0xcc,
+    xpubkey: 0x02fe52cc,
+    xprivkey: 0x02fe52f8,
     xpubkey58: 'xpub',
     xprivkey58: 'xprv',
     coinType: 119
@@ -23,8 +23,8 @@ const bcoinInfo: BcoinCurrencyInfo = {
 }
 
 const engineInfo: EngineCurrencyInfo = {
-  network: '',
-  currencyCode: '',
+  network: 'pivx',
+  currencyCode: 'pivx',
   gapLimit: ,
   maxFee: ,
   defaultFee: ,
@@ -42,14 +42,14 @@ const engineInfo: EngineCurrencyInfo = {
 
 const currencyInfo: EdgeCurrencyInfo = {
   // Basic currency information:
-  currencyCode: '',
-  displayName: '',
-  pluginName: '',
+  currencyCode: 'PIVX',
+  displayName: 'PIVX',
+  pluginName: 'pivx',
   denominations: [
     { name: '', multiplier: '', symbol: '' },
     { name: 'm', multiplier: '', symbol: 'm' }
   ],
-  walletType: 'wallet:',
+  walletType: 'wallet:pivx',
 
   // Configuration options:
   defaultSettings: {
@@ -65,9 +65,9 @@ const currencyInfo: EdgeCurrencyInfo = {
   metaTokens: [],
 
   // Explorers:
-  addressExplorer: '',
-  blockExplorer: '',
-  transactionExplorer: '',
+  blockExplorer: 'https://explorer.pivx.link/blocks/%s',
+  addressExplorer: 'https://explorer.pivx.link/address/%s',
+  transactionExplorer: 'https://explorer.pivx.link/tx/%s',
 
   // Images:
   symbolImage: `${imageServerUrl}/-logo-solo-64.png`,
