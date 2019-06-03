@@ -7,21 +7,18 @@ import { imageServerUrl } from './constants.js'
 const bcoinInfo: BcoinCurrencyInfo = {
   type: 'pivx',
   magic: ,
-  formats: ['bip44','bip32'],
+  formats: ['bip44','bip39'],
   keyPrefix: {
     privkey: ,
     xpubkey: ,
     xprivkey: ,
-    xpubkey58: ,
-    xprivkey58: ,
-    coinType: 
+    xpubkey58: 'xpub',
+    xprivkey58: 'xprv',
+    coinType: 119
   },
   addressPrefix: {
-    pubkeyhash: ,
-    scripthash: ,
-    witnesspubkeyhash: ,
-    witnessscripthash: ,
-    bech32: ''
+    pubkeyhash: 0x1e,
+    scripthash: 0x0d
   }
 }
 
