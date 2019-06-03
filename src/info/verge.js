@@ -72,4 +72,4 @@ const currencyInfo: EdgeCurrencyInfo = {
   symbolImageDarkMono: `${imageServerUrl}/verge-logo-solo-64.png`
 }
 
-export const  = { bcoinInfo, engineInfo, currencyInfo }
+export const verge = { bcoinInfo, engineInfo, currencyInfo }
