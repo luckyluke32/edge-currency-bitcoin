@@ -45,6 +45,7 @@ const currencyInfo: EdgeCurrencyInfo = {
   currencyCode: 'XVG',
   displayName: 'Verge',
   pluginName: 'verge',
+  denominations: [{ name: 'DOGE', multiplier: '100000000', symbol: 'Ð' }],
   walletType: 'wallet:verge',
 
   // Configuration options:
