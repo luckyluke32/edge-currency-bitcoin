@@ -1,11 +1,11 @@
 {
   "name": "edge-currency-bitcoin",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "Edge Bitcoin currency plugin",
   "homepage": "https://edge.app",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Airbitz/edge-currency-bitcoin.git"
+    "url": "git@github.com:luckyluke32/edge-currency-bitcoin.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "Edge",
