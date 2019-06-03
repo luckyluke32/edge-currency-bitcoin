@@ -5,11 +5,11 @@ import type { BcoinCurrencyInfo } from '../utils/bcoinExtender/bcoinExtender.js'
 import { imageServerUrl } from './constants.js'
 
 const bcoinInfo: BcoinCurrencyInfo = {
-  type: 'xvg',
-  magic: ,
+  type: 'verge',
+  magic: 0xd9b4bef9,
   formats: ['bip44','bip32'],
   keyPrefix: {
-    privkey: 0xcc,
+    privkey: 0x9e,
     xpubkey: 0x0488b21e,
     xprivkey: 0x0488ade4,
     xpubkey58: 'xpub',
@@ -18,7 +18,11 @@ const bcoinInfo: BcoinCurrencyInfo = {
   },
   addressPrefix: {
     pubkeyhash: 0x1e,
-    scripthash: 0x21
+    scripthash: 0x21,
+    scripthashLegacy: 0x05,
+    witnesspubkeyhash: 0x06,
+    witnessscripthash: 0x0a,
+    bech32: 'xvg'
   }
 }
 
@@ -45,7 +49,7 @@ const currencyInfo: EdgeCurrencyInfo = {
   currencyCode: 'XVG',
   displayName: 'Verge',
   pluginName: 'verge',
-  denominations: [{ name: 'DOGE', multiplier: '100000000', symbol: 'Ð' }],
+  denominations: [{ name: 'XVG', multiplier: '100000000', symbol: 'X' }],
   walletType: 'wallet:verge',
 
   // Configuration options:
