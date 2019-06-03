@@ -24,7 +24,7 @@ const bcoinInfo: BcoinCurrencyInfo = {
 
 const engineInfo: EngineCurrencyInfo = {
   network: 'verge',
-  currencyCode: 'xvg',
+  currencyCode: 'XVG',
   gapLimit: 10,
   maxFee: 100000,
   defaultFee: 10000,
