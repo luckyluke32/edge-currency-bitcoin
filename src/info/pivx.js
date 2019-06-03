@@ -25,18 +25,18 @@ const bcoinInfo: BcoinCurrencyInfo = {
 const engineInfo: EngineCurrencyInfo = {
   network: 'pivx',
   currencyCode: 'pivx',
-  gapLimit: ,
-  maxFee: ,
-  defaultFee: ,
-  feeUpdateInterval: ,
+  gapLimit: 10,
+  maxFee: 100000,
+  defaultFee: 10000,
+  feeUpdateInterval: 60000,
   customFeeSettings: ['satPerByte'],
   simpleFeeSettings: {
-    highFee: '',
-    lowFee: '',
-    standardFeeLow: '',
-    standardFeeHigh: '',
-    standardFeeLowAmount: '',
-    standardFeeHighAmount: ''
+    highFee: '300',
+    lowFee: '100',
+    standardFeeLow: '150',
+    standardFeeHigh: '200',
+    standardFeeLowAmount: '20000000',
+    standardFeeHighAmount: '981000000'
   }
 }
 
@@ -45,10 +45,6 @@ const currencyInfo: EdgeCurrencyInfo = {
   currencyCode: 'PIVX',
   displayName: 'PIVX',
   pluginName: 'pivx',
-  denominations: [
-    { name: '', multiplier: '', symbol: '' },
-    { name: 'm', multiplier: '', symbol: 'm' }
-  ],
   walletType: 'wallet:pivx',
 
   // Configuration options:
