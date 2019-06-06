@@ -6,7 +6,7 @@ import { imageServerUrl } from './constants.js'
 
 const bcoinInfo: BcoinCurrencyInfo = {
   type: 'verge',
-  magic: 0xd9b4bef9,
+  magic: 0xdb4775248b80fb57,
   formats: ['bip44','bip32'],
   keyPrefix: {
     privkey: 0x9e,
@@ -21,8 +21,7 @@ const bcoinInfo: BcoinCurrencyInfo = {
     scripthash: 0x21,
     scripthashLegacy: 0x05,
     witnesspubkeyhash: 0x06,
-    witnessscripthash: 0x0a,
-    bech32: 'xvg'
+    witnessscripthash: 0x0a
   }
 }
 
@@ -57,12 +56,12 @@ const currencyInfo: EdgeCurrencyInfo = {
     customFeeSettings: ['satPerByte'],
     electrumServers: [
       
-      'electrum://electrum-verge.xyz:50002',
-      'electrum://electrum-xvg.stream:50002',
-      'electrum://electrum-xvg.party:50002',
-      'electrum://e1.verge-electrum.com:50002',
-      'electrum://e2.verge-electrum.com:50002',
-      'electrum://e3.verge-electrum.com:50002',
+      'electrum://electrum-verge.xyz:50003',
+      'electrum://electrum-xvg.stream:50003',
+      'electrum://electrum-xvg.party:50003',
+      'electrum://e1.verge-electrum.com:50003',
+      'electrum://e2.verge-electrum.com:50003',
+      'electrum://e3.verge-electrum.com:50003',
     ],
     disableFetchingServers: false
   },
