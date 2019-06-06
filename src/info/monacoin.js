@@ -14,8 +14,8 @@ const bcoinInfo = {
   },
   addressPrefix: {
     pubkeyhash: 0x32,
-    scripthash: 0x05,
-    scripthashLegacy: 0x05,
+    scripthash: 0x50,
+    scripthashLegacy: 0x50,
     witnesspubkeyhash: 0x06,
     witnessscripthash: 0x0a
   }
