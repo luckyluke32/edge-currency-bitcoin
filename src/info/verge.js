@@ -53,12 +53,12 @@ const currencyInfo = {
     customFeeSettings: ['satPerByte'],
     electrumServers: [
 
-      'electrum://electrum-verge.xyz:50002',
-      'electrum://electrum-xvg.stream:50002',
-      'electrum://electrum-xvg.party:50002',
-      'electrum://e1.verge-electrum.com:50002',
-      'electrum://e2.verge-electrum.com:50002',
-      'electrum://e3.verge-electrum.com:50002',
+      'electrum://electrum-verge.xyz:50003',
+      'electrum://electrum-xvg.stream:50003',
+      'electrum://electrum-xvg.party:50003',
+      'electrum://e1.verge-electrum.com:50003',
+      'electrum://e2.verge-electrum.com:50003',
+      'electrum://e3.verge-electrum.com:50003',
     ],
     disableFetchingServers: false
   },
