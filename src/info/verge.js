@@ -1,15 +1,11 @@
-import { type EdgeCurrencyInfo } from 'edge-core-js/types'
-
-import type { EngineCurrencyInfo } from '../engine/currencyEngine.js'
-import type { BcoinCurrencyInfo } from '../utils/bcoinExtender/bcoinExtender.js'
 import { imageServerUrl } from './constants.js'
 
-const bcoinInfo: BcoinCurrencyInfo = {
+const bcoinInfo = {
   type: 'verge',
-  magic: 0xdb4775248b80fb57,
-  formats: ['bip44','bip32'],
+  magic: 0xd9b4bef9,
+  formats: ['bip32'],
   keyPrefix: {
-    privkey: 0x9e,
+    privkey: 0x80,
     xpubkey: 0x0488b21e,
     xprivkey: 0x0488ade4,
     xpubkey58: 'xpub',
@@ -21,11 +17,12 @@ const bcoinInfo: BcoinCurrencyInfo = {
     scripthash: 0x21,
     scripthashLegacy: 0x05,
     witnesspubkeyhash: 0x06,
-    witnessscripthash: 0x0a
+    witnessscripthash: 0x0a,
+    bech32: 'xvg'
   }
 }
 
-const engineInfo: EngineCurrencyInfo = {
+const engineInfo = {
   network: 'verge',
   currencyCode: 'XVG',
   gapLimit: 10,
@@ -43,7 +40,7 @@ const engineInfo: EngineCurrencyInfo = {
   }
 }
 
-const currencyInfo: EdgeCurrencyInfo = {
+const currencyInfo = {
   // Basic currency information:
   currencyCode: 'XVG',
   displayName: 'Verge',
@@ -55,13 +52,13 @@ const currencyInfo: EdgeCurrencyInfo = {
   defaultSettings: {
     customFeeSettings: ['satPerByte'],
     electrumServers: [
-      
-      'electrum://electrum-verge.xyz:50003',
-      'electrum://electrum-xvg.stream:50003',
-      'electrum://electrum-xvg.party:50003',
-      'electrum://e1.verge-electrum.com:50003',
-      'electrum://e2.verge-electrum.com:50003',
-      'electrum://e3.verge-electrum.com:50003',
+
+      'electrum://electrum-verge.xyz:50002',
+      'electrum://electrum-xvg.stream:50002',
+      'electrum://electrum-xvg.party:50002',
+      'electrum://e1.verge-electrum.com:50002',
+      'electrum://e2.verge-electrum.com:50002',
+      'electrum://e3.verge-electrum.com:50002',
     ],
     disableFetchingServers: false
   },
