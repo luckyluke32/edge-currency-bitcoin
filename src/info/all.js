@@ -21,6 +21,7 @@ import { ufo } from './ufo.js'
 import { vertcoin } from './vertcoin.js'
 import { verge } from './verge.js'
 import { zcoin } from './zcoin.js'
+import { monacoin } from './monacoin.js'
 
 export const allInfo = [
   bitcoin,
@@ -43,5 +44,6 @@ export const allInfo = [
   ufo,
   vertcoin,
   verge,
-  zcoin
+  zcoin,
+  monacoin
 ]
