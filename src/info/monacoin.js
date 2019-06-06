@@ -44,7 +44,7 @@ const currencyInfo = {
   currencyCode: 'MONA',
   displayName: 'MonaCoin',
   pluginName: 'monacoin',
-  denominations: [{ name: 'MONA', multiplier: '100000000', symbol: 'X' }],
+  denominations: [{ name: 'MONA', multiplier: '100000000', symbol: 'M' }],
   walletType: 'wallet:monacoin',
 
   // Configuration options:
