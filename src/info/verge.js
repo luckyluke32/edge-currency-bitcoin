@@ -56,14 +56,13 @@ const currencyInfo: EdgeCurrencyInfo = {
   defaultSettings: {
     customFeeSettings: ['satPerByte'],
     electrumServers: [
-      'elec2.verge-blockchain.com:50002',
-      'electrum://46.163.118.201:50002',
-      'electrum-verge.xyz:50002',
-      'electrum-xvg.stream:50002',
-      'electrum-xvg.party:50002',
-      'e1.verge-electrum.com:50002',
-      'e2.verge-electrum.com:50002',
-      'e3.verge-electrum.com:50002',
+      
+      'electrum://electrum-verge.xyz:50002',
+      'electrum://electrum-xvg.stream:50002',
+      'electrum://electrum-xvg.party:50002',
+      'electrum://e1.verge-electrum.com:50002',
+      'electrum://e2.verge-electrum.com:50002',
+      'electrum://e3.verge-electrum.com:50002',
     ],
     disableFetchingServers: false
   },
