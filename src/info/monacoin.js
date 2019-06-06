@@ -7,14 +7,14 @@ const bcoinInfo = {
   keyPrefix: {
     privkey: 0xB0,
     xpubkey: 0x0488b21e,
-    xprivkey: 0x0488ade4,
+    xprivkey: 0x0488ADE4,
     xpubkey58: 'xpub',
     xprivkey58: 'xprv',
     coinType: 22
   },
   addressPrefix: {
-    pubkeyhash: 0x30,
-    scripthash: 0x32,
+    pubkeyhash: 0x32,
+    scripthash: 0x05,
     scripthashLegacy: 0x05,
     witnesspubkeyhash: 0x06,
     witnessscripthash: 0x0a
@@ -57,7 +57,7 @@ const currencyInfo = {
       'electrum://electrum-mona.bitbank.cc:50001',
       'electrum://electrumx.tamami-foundation.org:50002'
     ],
-    disableFetchingServers: true
+    disableFetchingServers: false
   },
   metaTokens: [],
 
