@@ -60,7 +60,7 @@ const currencyInfo = {
       'electrum://e2.verge-electrum.com:50003',
       'electrum://e3.verge-electrum.com:50003',
     ],
-    disableFetchingServers: false
+    disableFetchingServers: true
   },
   metaTokens: [],
 
